@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask ile Blueprint Örneği</title>
+</head>
+<body>
+<h1> Flask ile Blueprint Örneğine Hoşgeldiniz</h1>
+#aşağıda link bağlantısı ile anasayfadan diğer sayfalara geçiş sağlandı.
+    <p>Go to <a href="{{ url_for('user_bp.show_users') }}">Users</a></p>
+    <p>Go to <a href="{{ url_for('product_bp.show_products') }}">Products</a></p>
+</body>
+</html>
